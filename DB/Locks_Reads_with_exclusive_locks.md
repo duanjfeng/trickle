@@ -1,16 +1,24 @@
-#Locks_Reads_with_exclusive_locks
+#Locks Reads with exclusive locks
 `exclusive locks` `排它锁`
 
 ##问题简述
-在一个事务内读取一行数据时防止其他事务执行相同的操作。例如，在transaction1中排他的读取row1时，不允许transaction2中也排他的读取row2。<br>
-举个例子：使用程序生成流水号，为了实现多实例，在数据库中保存流水号当前值、步长（每个实例缓存几个流水号，减少数据库访问次数）、流水号最大值。当一个实例缓存的流水号用完时，需要读取并更新当前值。一个实例执行这个读取操作时，其他实例是不允许这个读取操作的。否则就会出现两个实例使用相同流水号的问题。<br>
+**在一个事务内读取一行数据时防止其他事务执行相同的操作。**<br>
+例如，在transaction1中排他的读取row1时，不允许transaction2中也排他的读取row2。举个例子：使用程序生成流水号，为了实现多实例，在数据库中保存流水号当前值、步长（每个实例缓存几个流水号，减少数据库访问次数）、流水号最大值。当一个实例缓存的流水号用完时，需要读取并更新当前值。一个实例执行这个读取操作时，其他实例是不允许这个读取操作的。否则就会出现两个实例使用相同流水号的问题。<br>
 
 ##解决方法
-
-* DB2数据库：select currentValue from SeqTable for update with rs。
-* Oracle数据库：select currentValue from SeqTable for update。
-* MySQL数据库：select currentValue from SeqTable for update。注意：需要使用innodb引擎。
-* 数据库锁机制远比上述内容要复杂，更多内容请参考官方文档。DB2：访问(http://www-01.ibm.com/support/knowledgecenter/ "IBM knowledgecenter") 搜索“锁定管理”相关内容。MySQL：访问(http://dev.mysql.com/doc/refman/5.7/en/innodb-locking-reads.html "innodb-locking-reads")。
+* DB2数据库
+``` sql
+select currentValue from SeqTable for update with rs
+```
+* Oracle数据库
+``` sql
+select currentValue from SeqTable for update
+```
+* MySQL数据库(注意：需要使用innodb引擎)
+``` sql
+select currentValue from SeqTable for update
+```
+* 数据库锁机制远比上述内容要复杂，更多内容请参考官方文档。DB2：访问[IBM knowledgecenter](http://www-01.ibm.com/support/knowledgecenter/ "IBM knowledgecenter") 搜索“锁定管理”相关内容。MySQL：访问[innodb-locking-reads](http://dev.mysql.com/doc/refman/5.7/en/innodb-locking-reads.html "innodb-locking-reads")。
 
 
 ##操作实例
