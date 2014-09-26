@@ -1,6 +1,6 @@
 #DB2 BatchUpdateException ERRORCODE -4229
 
-·DB2· ·BatchUpdateException· ·ERRORCODE -4229·
+`DB2` `BatchUpdateException` `ERRORCODE -4229`
 
 ##问题现象
 * Java MyBatis程序，执行批量SQL时（BATCH），程序抛出异常，如下：<br>
@@ -13,10 +13,10 @@
 
 * 由于程序直接抛出的是org.apache.ibatis.exceptions.PersistenceException，所以首先需要捕获该对象，并分析结构。结构如下：
 
->PersistenceException
->>BatchExecutorException
->>>BatchUpdateException
->>>>next
+ >PersistenceException
+ >>BatchExecutorException
+ >>>BatchUpdateException
+ >>>>next
 
 * 参考Retrieving information from a BatchUpdateException文档，修改代码以获取BatchUpdateException的更多信息。代码如下：
 ``` java
