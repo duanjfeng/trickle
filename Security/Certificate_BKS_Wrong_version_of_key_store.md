@@ -15,7 +15,9 @@
  Security.getProvider("BC").getVersion();
 ```
 * 根据BouncyCastle版本确定支持的keystore版本。查看JDKKeyStore中STORE_VERSION常量。经过对比，bcprov-1.46及其以前的版本支持的keystore版本为1,bcprov-1.47及其以后的版本支持的keystore版本为2。
+
 * 检查keystore文件的版本。使用DataInputStream读取keystore文件的第一个int。可能有两个结果1或者2。
+
 * 根据Andorid平台内置BouncyCastle版本重新生成keystore文件。
 
 <br>2014-05-25
