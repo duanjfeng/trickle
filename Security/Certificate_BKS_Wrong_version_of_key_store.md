@@ -11,9 +11,9 @@
 
 ##问题处理
 * 检查Andorid平台内置的BoucnyCastle版本。Android不同的平台支持的版本不一样，因此需要运行一下查看内置的版本。执行以下代码，该代码会返回1.46,1.47等不同结果。
-``` java 
-Security.getProvider("BC").getVersion();
-```
+ ``` java 
+ Security.getProvider("BC").getVersion();
+ ```
 * 根据BouncyCastle版本确定支持的keystore版本。查看JDKKeyStore中STORE_VERSION常量。经过对比，bcprov-1.46及其以前的版本支持的keystore版本为1,bcprov-1.47及其以后的版本支持的keystore版本为2。
 * 检查keystore文件的版本。使用DataInputStream读取keystore文件的第一个int。可能有两个结果1或者2。
 * 根据Andorid平台内置BouncyCastle版本重新生成keystore文件。
