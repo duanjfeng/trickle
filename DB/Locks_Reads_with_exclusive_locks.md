@@ -27,9 +27,9 @@ select currentValue from SeqTable for update
 * 在命令行窗口连接数据库。命令类似：db2 connect to SAMPLE user userxxx using passwordxxx。输入db2进入db2命令模式，效果类似“db2 =>”。<br>
 * 在两个窗口输入以下命令关闭db2自动提交（autocommit）选项：update command options using c off。查看是否设置成功使用命令：list command options。选项-c应该为off。<br>
 * 在窗口1（事务1）中输入SQL语句：select * from EMPLOYEE where EMPNO='000010' for update with rs。查询结果输出，返回一行。<br>
-* 在窗口2（事务2）中输入SQL语句：select * from EMPLOYEE where EMPNO='000010' for update with rs。查询界面挂起。原因是第1个事务尚未提交，该数据行被第1个事务锁定。<br>
-* 在窗口1（事务1）中输入命令：commit。事务1提交完毕。同时这个时候窗口2中查询结果正常显示。<br>
-* 在窗口2（事务2）中输入命令：commit。事务2提交完毕。<br>
-* 那么如果第5步查询不是for update with rs，查询会挂起么？答案是：不一定，跟锁级别有关系。可以将第5步的for update with rs修改为for update，或者将for update也去掉分别测试一下。<br>
+* 在窗口2（事务2）中输入SQL语句：select * from EMPLOYEE where EMPNO='000010' for update with rs。查询界面挂起。原因是第1个事务尚未提交，该数据行被第1个事务锁定。
+* 在窗口1（事务1）中输入命令：commit。事务1提交完毕。同时这个时候窗口2中查询结果正常显示。
+* 在窗口2（事务2）中输入命令：commit。事务2提交完毕。
+* 那么如果第5步查询不是for update with rs，查询会挂起么？答案是：不一定，跟锁级别有关系。可以将第5步的for update with rs修改为for update，或者将for update也去掉分别测试一下。
 
 <br><br>2014-07-25
