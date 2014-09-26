@@ -32,4 +32,4 @@ select currentValue from SeqTable for update
 * 在窗口2（事务2）中输入命令：commit。事务2提交完毕。<br>
 * 那么如果第5步查询不是for update with rs，查询会挂起么？答案是：不一定，跟锁级别有关系。可以将第5步的for update with rs修改为for update，或者将for update也去掉分别测试一下。<br>
 
-<br><br><br>2014-07-25
+<br><br>2014-07-25
