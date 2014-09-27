@@ -17,3 +17,5 @@ b.setScale(scale, round_mode).doubleValue();
 #解决方法
 * IBM J9虚拟机中BigDecimal类位于vm.jar包中，源码并没有开放。反编译后未发现空指针发生的原因。
 * 使用Oracle虚拟机的源码创建一个BigDecimal包（非java.math包路径），在应用代码中import自定义BigDecimal类。
+
+<br>2013-04-07
