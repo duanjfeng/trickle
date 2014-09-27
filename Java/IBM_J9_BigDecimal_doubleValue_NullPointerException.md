@@ -1,4 +1,4 @@
-IBM J9 BigDecimal doubleValue NullPointerException
+#IBM J9 BigDecimal doubleValue NullPointerException
 `J9 VM` `BigDecimal` `NullPointerException`
 #问题简述
 一个非空BigDecimal对象在调用setScale方法之后调用doubleValue方法，导致空指针异常。
