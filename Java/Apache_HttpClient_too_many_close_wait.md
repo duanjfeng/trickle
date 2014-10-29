@@ -7,7 +7,7 @@
 tcp协议断开链接进行4次挥手，一方率先收到另外一方的FIN时进入CLOSE_WAIT状态。更多内容请参看陈皓的[TCP 的那些事儿](http://coolshell.cn/articles/11564.html)。
 使用netstat命令发现close_wait的目的ip是同一个远程主机。针对该主机的访问是程序中的HttpClient发起的。
 ###HttpClient
-`应用程序使用的HttpClient版本为3.1。`在finnaly块中都调用了HttpMethod的releaseConnection()方法。
+`应用程序使用的HttpClient版本为3.1。`在finally块中都调用了HttpMethod的releaseConnection()方法。
 ###releaseConnection()
 HttpMethod的releaseConnection()方法是一个极具迷惑性的方法。调用栈为：
 >HttpMethod.releaseConnection()
