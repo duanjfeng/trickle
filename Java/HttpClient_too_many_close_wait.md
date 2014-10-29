@@ -33,7 +33,7 @@ public void releaseConnection(HttpConnection conn) {
         idleStartTime = System.currentTimeMillis();
     }
 ```
-###问题解决
+##问题解决
 如何正确的关闭连接呢？[Using HttpClient properly to avoid CLOSE_WAIT TCP connections](http://www.tuicool.com/articles/En6niq)提供了三种方法。
 ####1.设置请求头
 ```Java
@@ -44,6 +44,6 @@ method.setRequestHeader("Connection", "close");
 httpClient.getHttpConnectionManager().closeIdleConnections(0);
 ```
 ####3.使用MultiThreadedHttpConnectionManager
-###关于HttpClient 4.X.X
+##关于HttpClient 4.X.X
 参看官方示例[ClientConnectionRelease](http://hc.apache.org/httpcomponents-client-ga/httpclient/examples/org/apache/http/examples/client/ClientConnectionRelease.java)
 
