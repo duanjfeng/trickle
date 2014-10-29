@@ -47,3 +47,4 @@ httpClient.getHttpConnectionManager().closeIdleConnections(0);
 ##关于HttpClient 4.X.X
 参看官方示例[ClientConnectionRelease](http://hc.apache.org/httpcomponents-client-ga/httpclient/examples/org/apache/http/examples/client/ClientConnectionRelease.java)
 
+2014-10-29
