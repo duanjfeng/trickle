@@ -1,4 +1,4 @@
-#HttpClient too many close_wait
+#Apache HttpClient too many close_wait
 `HttpClient` `close_wait`
 ##问题简述
 监控系统发现应用服务器大量tcp close_wait。
