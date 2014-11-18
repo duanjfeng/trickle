@@ -21,5 +21,6 @@ Some notes.
 
 >mqtt
 >>[基于mqtt的android消息推送demo](https://github.com/duanjfeng/trickle/blob/master/mqtt/mqtt_1_android_push_notification_demo_using_mqtt.md)
+>>[mqtt控制报文格式-固定头-第1个字节](https://github.com/duanjfeng/trickle/blob/master/mqtt/mqtt_2_Control_Packet_format_Fixed_header_First_byte.md)
 
 
