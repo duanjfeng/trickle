@@ -57,3 +57,5 @@ mqtt v3.1.1已经成为oasis的正式标准啦：[oasis公告](https://www.oasis
 * DUP：Duplicate delivery of a PUBLISH Control Packet，重复投递发布报文
 * QoS：PUBLISH Quality of Service，消息发布的服务质量。占用2位，0为至多一次，1为至少一次，2为仅一次，3保留不用。
 * RETAIN：PUBLISH Retain flag，发布消息保留。
+
+2014-11-19
