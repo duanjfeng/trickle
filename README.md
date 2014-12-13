@@ -12,6 +12,8 @@ Some notes.
 
 >>[IBM J9 BigDecimal doubleValue NullPointerException](https://github.com/duanjfeng/trickle/blob/master/Java/IBM_J9_BigDecimal_doubleValue_NullPointerException.md)
 
+>>[Inputstream incorrect usage of available](https://github.com/duanjfeng/trickle/blob/master/Java/Inputstream_incorrect_usage_of_available.md)
+
 >Security
 >>[BKS Wrong version of key store](https://github.com/duanjfeng/trickle/blob/master/Security/Certificate_BKS_Wrong_version_of_key_store.md)
 
