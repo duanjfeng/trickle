@@ -7,6 +7,8 @@ Some notes.
 
 >>[Locks Reads with exclusive locks](https://github.com/duanjfeng/trickle/blob/master/DB/Locks_Reads_with_exclusive_locks.md)
 
+>>[SQL Recursive query](https://github.com/duanjfeng/trickle/blob/master/DB/DB2_SQL_Recursive_query.md)
+
 >Java
 >>[Apache HttpClient too many close_wait](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpClient_too_many_close_wait.md)
 
