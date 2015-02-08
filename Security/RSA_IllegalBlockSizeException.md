@@ -19,7 +19,7 @@ javax.crypto.IllegalBlockSizeException: Data must not be longer than 53 bytes
 ##原因分析
 ###IllegalBlockSizeException是何方神圣？
 ```java
-IllegalBlockSizeException - if this cipher is a block cipher, no padding has been requested (only in encryption mode), and the total input length of the data processed by this cipher is not a multiple of block size; or if this encryption algorithm is unable to process the input data provided. 
+IllegalBlockSizeException - <br>if this cipher is a block cipher, no padding has been requested (only in encryption mode), and the total input length of the data processed by this cipher is not a multiple of block size; <br>or if this encryption algorithm is unable to process the input data provided. 
 ```
 块密码，未使用padding（加密模式下），待处理的数据不是块大小的整数倍；或者算法无法处理输入。
 ###是不是“待处理的数据不是块大小的整数倍”？
@@ -36,7 +36,7 @@ IllegalBlockSizeException - if this cipher is a block cipher, no padding has bee
 BouncyCastleProvider，BC实现了getBlockSize，所以如果你用BC，那么上述问题迎刃而解，不需要再定义常量来指定块大小了。
 
 ##示例代码
-问题已经分析清楚了，下面贴出示例代码。
+问题已经分析清楚了，下面贴出正确的代码。
 ###添加Provider
 增加BouncyCastle的jar包后
 方法一：修改jre\lib\security\java.security文件添加。<br>
