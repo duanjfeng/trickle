@@ -3,7 +3,7 @@
 
 ##问题现象
 java语言执行RSA加解密运算时抛出异常IllegalBlockSizeException。
-错误的代码是参考《Java加密与解密的艺术》一书第8章的示例代码写的，网上很多地方能下载，这里仅贴出出错的部分。
+错误的代码是参考《Java加密与解密的艺术》一书第2版8.3.3节的示例代码写的，网上很多地方能下载，这里仅贴出出错的部分。
 ```java
 cipher.init(Cipher.DECRYPT_MODE, privateKey);
 return cipher.doFinal(data);
