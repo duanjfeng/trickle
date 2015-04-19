@@ -17,7 +17,7 @@ Some notes.
 >Java
 >>[Apache HttpClient too many close_wait](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpClient_too_many_close_wait.md)
 
->>[Apache HttpGet ECONNRESET and Range Header](Apache_HttpGet_ECONNRESET_and_Range_Header)
+>>[Apache HttpGet ECONNRESET and Range Header](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpGet_ECONNRESET_and_Range_Header.md)
 
 >>[IBM J9 BigDecimal doubleValue NullPointerException](https://github.com/duanjfeng/trickle/blob/master/Java/IBM_J9_BigDecimal_doubleValue_NullPointerException.md)
 
