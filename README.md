@@ -21,6 +21,8 @@ Some notes.
 
 >>[Inputstream incorrect usage of available](https://github.com/duanjfeng/trickle/blob/master/Java/Inputstream_incorrect_usage_of_available.md)
 
+>>[Mybatis Cache: A Brief Analysis of Implementation](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_Cache_A_Brief_Analysis_of_Implementation.md)
+
 >>[Mybatis Update前后Select返回相同结果](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_LocalCache_Update%E5%89%8D%E5%90%8ESelect%E8%BF%94%E5%9B%9E%E7%9B%B8%E5%90%8C%E7%BB%93%E6%9E%9C.md)
 
 >Security
