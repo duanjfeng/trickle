@@ -15,6 +15,8 @@ Some notes.
 >>[SQL Recursive query](https://github.com/duanjfeng/trickle/blob/master/DB/DB2_SQL_Recursive_query.md)
 
 >Java
+>>[Android Setup Android Studio on Mac](https://github.com/duanjfeng/trickle/blob/master/Java/Android_Setup_Android_Studio_on_Mac.md)
+
 >>[Apache HttpClient too many close_wait](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpClient_too_many_close_wait.md)
 
 >>[Apache HttpGet ECONNRESET and Range Header](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpGet_ECONNRESET_and_Range_Header.md)
