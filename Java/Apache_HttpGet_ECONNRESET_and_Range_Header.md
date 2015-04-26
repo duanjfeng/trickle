@@ -45,9 +45,9 @@ CDN工程师使用curl模拟了下载，并无异常。[cURL](http://curl.haxx.s
 ##问题解决
 联系公司网络管理人员开放特定账号，允许Range头部。
 ##小结
-为了这个问题前后纠结了两三天，中间做过很多尝试，补充说明一下。
-有人声称碰到过类似的问题，结果发现Range头部是大小写敏感的，使用“RANGE”就可以。（HTTP标准里面是“Range”哦）
-有人声称是服务器端的问题，连接未及时关闭，需要设置系统属性http.keepAlive为false。[链接](http://stackoverflow.com/questions/11207394/getting-socketexception-connection-reset-by-peer-in-android)。
+为了这个问题前后纠结了两三天，中间做过很多尝试，补充说明一下。<br/>
+有人声称碰到过类似的问题，结果发现Range头部是大小写敏感的，使用“RANGE”就可以。（HTTP标准里面是“Range”哦）<br/>
+有人声称是服务器端的问题，连接未及时关闭，需要设置系统属性http.keepAlive为false。[链接](http://stackoverflow.com/questions/11207394/getting-socketexception-connection-reset-by-peer-in-android)。<br/>
 
 <br/>
 2015-4-19
