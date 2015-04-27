@@ -356,6 +356,7 @@ Adt编译运行通过。<br/>
 [android开发AIDL实例](http://blog.csdn.net/wangkuifeng0118/article/details/7277680)<br/>
 [Android aidl文档翻译](http://elsila.blog.163.com/blog/static/1731971582012285264906/)<br/>
 [android项目中bindService失败的原因](http://blog.csdn.net/hbzh2008/article/details/7641627)<br/>
+[Parcelable接口的使用](http://www.cnblogs.com/hpboy/archive/2012/07/12/2587797.html)<br/>
 
 <br/>
 2015-4-27
