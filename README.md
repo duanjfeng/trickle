@@ -17,6 +17,8 @@ Some notes.
 >Java
 >>[Android AIDL Service](https://github.com/duanjfeng/trickle/blob/master/Java/Android_AIDL_Service.md)
 
+>>[Android Parse APK](https://github.com/duanjfeng/trickle/blob/master/Java/Android_Parse_APK.md)
+
 >>[Android Setup Android Studio on Mac](https://github.com/duanjfeng/trickle/blob/master/Java/Android_Setup_Android_Studio_on_Mac.md)
 
 >>[Apache HttpClient too many close_wait](https://github.com/duanjfeng/trickle/blob/master/Java/Apache_HttpClient_too_many_close_wait.md)
