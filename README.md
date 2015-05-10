@@ -31,7 +31,9 @@ Some notes.
 
 >>[Mybatis Cache: A Brief Analysis of Implementation](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_Cache_A_Brief_Analysis_of_Implementation.md)
 
->>[Mybatis Update前后Select返回相同结果](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_LocalCache_Update%E5%89%8D%E5%90%8ESelect%E8%BF%94%E5%9B%9E%E7%9B%B8%E5%90%8C%E7%BB%93%E6%9E%9C.md)
+>>[Mybatis LocalCache Update前后Select返回相同结果](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_LocalCache_Update%E5%89%8D%E5%90%8ESelect%E8%BF%94%E5%9B%9E%E7%9B%B8%E5%90%8C%E7%BB%93%E6%9E%9C.md)
+
+>>[Security Why you should store sensitive inforamtion in char array instead of String ?](https://github.com/duanjfeng/trickle/blob/master/Java/Security_Why_you_should_store_sensitive_inforamtion_in_char_array_instead_of_String.md)
 
 >Security
 >>[BKS Wrong version of key store](https://github.com/duanjfeng/trickle/blob/master/Security/Certificate_BKS_Wrong_version_of_key_store.md)
