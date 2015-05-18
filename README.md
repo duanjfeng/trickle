@@ -42,6 +42,8 @@ Some notes.
 
 >>[Browser cannot read personal certificates](https://github.com/duanjfeng/trickle/blob/master/Security/Certificate_Browser_cannot_reads_personal_certificates.md)
 
+>>[How to verify certificate in Java](https://github.com/duanjfeng/trickle/blob/master/Security/Certificate_How_to_verify_certificate_in_Java.md)
+
 >>[OpenSSL verify unable to get local issuer certificate (illegal KeyUsage)](https://github.com/duanjfeng/trickle/blob/master/Security/Certificate_OpenSSL_verify_unable_to_get_local_issuer_certificate.md)
 
 >>[RSA IllegalBlockSizeException](https://github.com/duanjfeng/trickle/blob/master/Security/RSA_IllegalBlockSizeException.md)
