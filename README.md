@@ -48,6 +48,8 @@ Some notes.
 
 >>[RSA IllegalBlockSizeException](https://github.com/duanjfeng/trickle/blob/master/Security/RSA_IllegalBlockSizeException.md)
 
+>>[TLS: Protocol details and troubleshooting](https://github.com/duanjfeng/trickle/blob/master/Security/TLS_Protocol_details_and_troubleshooting.md)
+
 >mqtt
 >>[基于mqtt的android消息推送demo](https://github.com/duanjfeng/trickle/blob/master/mqtt/mqtt_1_android_push_notification_demo_using_mqtt.md)
 
