@@ -10,6 +10,8 @@ Some notes.
 >DB
 >>[DB2 BatchUpdateException ERRORCODE -4229](https://github.com/duanjfeng/trickle/blob/master/DB/DB2_BatchUpdateException_ERRORCODE_4229.md)
 
+>>[DB2 Copy database](https://github.com/duanjfeng/trickle/blob/master/DB/DB2_Copy_database.md)
+
 >>[Locks Reads with exclusive locks](https://github.com/duanjfeng/trickle/blob/master/DB/Locks_Reads_with_exclusive_locks.md)
 
 >>[SQL Recursive query](https://github.com/duanjfeng/trickle/blob/master/DB/DB2_SQL_Recursive_query.md)
