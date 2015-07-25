@@ -1,6 +1,7 @@
 #trickle
 
-Some notes.
+Some notes.<br/>
+`27` posts.
 
 >Basic
 >>[IO A tiny introduction to asynchronous IO (异步IO简介)](https://github.com/duanjfeng/trickle/blob/master/Basic/IO_A_tiny_introduction_to_asynchronous_IO_%E8%AF%91%E6%96%87.md)
@@ -35,6 +36,8 @@ Some notes.
 
 >>[Mybatis LocalCache Update前后Select返回相同结果](https://github.com/duanjfeng/trickle/blob/master/Java/Mybatis_LocalCache_Update%E5%89%8D%E5%90%8ESelect%E8%BF%94%E5%9B%9E%E7%9B%B8%E5%90%8C%E7%BB%93%E6%9E%9C.md)
 
+>>[Performance: Basic Java/Android performance tuning](https://github.com/duanjfeng/trickle/blob/master/Java/Performance_Basic_Java_Android_performance_tuning.md)
+
 >>[Security Why you should store sensitive inforamtion in char array instead of String ?](https://github.com/duanjfeng/trickle/blob/master/Java/Security_Why_you_should_store_sensitive_inforamtion_in_char_array_instead_of_String.md)
 
 >Security
@@ -60,4 +63,4 @@ Some notes.
 >>[mqtt标准——安全]
 (https://github.com/duanjfeng/trickle/blob/master/mqtt/mqtt_3_Standard_Security.md)
 
-
+<br/>
